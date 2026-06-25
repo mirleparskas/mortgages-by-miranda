@@ -1,0 +1,40 @@
+# Mortgages by Miranda
+
+> Ontario mortgage broker website for buyers, homeowners, renewal clients, refinancing clients, self-employed borrowers, and investment property borrowers.
+
+Canonical site: https://mortgagesbymiranda.ca/
+Primary language: en-CA
+Primary market: Ontario, Canada
+Business category: Mortgage broker / financial service
+
+## Core Services
+
+- First-time home buyer mortgage guidance
+- Mortgage pre-approvals
+- Mortgage renewals
+- Mortgage refinancing
+- Self-employed borrower mortgages
+- Investment property mortgages
+
+## Best Short Description
+
+Mortgages by Miranda helps Ontario borrowers compare mortgage options for purchases, renewals, refinancing, pre-approvals, self-employed applications, and investment property financing.
+
+## Topics Covered
+
+- Ontario mortgage broker
+- Canadian mortgage pre-approval
+- First-time home buyer mortgage
+- Mortgage renewal comparison
+- Mortgage refinance options
+- Self-employed mortgage documentation
+- Fixed versus variable mortgage rates
+- Mortgage stress test
+- Down payment and closing costs
+- Debt service ratios
+
+## Important Notes
+
+- Placeholder phone, email, brokerage, licensing, and compliance details must be replaced before launch.
+- No client reviews, awards, rate guarantees, or lender claims should be inferred unless they are added to the live website with proof.
+- Mortgage rates and qualification rules change over time; readers should contact Miranda for current lender options.
