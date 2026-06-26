@@ -367,6 +367,10 @@ p {
   text-decoration: none;
 }
 
+.contact-cta {
+  width: fit-content;
+}
+
 .contact-link:hover {
   color: var(--teal);
 }
