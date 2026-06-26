@@ -147,22 +147,10 @@ p {
 }
 
 .brand-mark {
-  width: 34px;
-  height: 34px;
+  width: 32px;
+  height: 42px;
   flex: 0 0 auto;
-  overflow: visible;
-}
-
-.brand-mark circle,
-.brand-mark line {
-  fill: none;
-  stroke: var(--accent);
-  stroke-width: 1.4;
-  stroke-linecap: round;
-}
-
-.brand-mark .brand-reflection {
-  stroke: rgba(132, 195, 170, 0.45);
+  object-fit: contain;
 }
 
 .brand-text {

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 84" width="256" height="336" role="img" aria-label="Mortgages by Miranda mark, teal line">
+  <g fill="none" stroke="#6FB7C2" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="32,8 46,31 56,44 32,80 8,44 18,31"></polygon>
+    <line x1="18" y1="31" x2="46" y2="31"></line>
+    <line x1="32" y1="8" x2="32" y2="80"></line>
+  </g>
+</svg>
