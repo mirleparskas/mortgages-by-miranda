@@ -16,7 +16,7 @@ Static website for an Ontario mortgage broker brand, built with plain HTML and C
 Confirm these business details before paid ads, broad promotion, or compliance review:
 
 - Brokerage name, license details, legal disclaimers, privacy policy link, and any required provincial compliance language.
-- Whether `hello@mirandamortgages.ca` is the final public contact inbox.
+- Whether `mortgagesbymiranda@gmail.com` is the final public contact inbox.
 
 Add real proof only when available:
 

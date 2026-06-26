@@ -351,6 +351,8 @@ p {
 }
 
 .contact-panel {
+  display: grid;
+  gap: 14px;
   padding: 26px;
   background: #ffffff;
 }
@@ -358,7 +360,6 @@ p {
 .contact-link {
   display: inline-flex;
   max-width: 100%;
-  margin-bottom: 18px;
   color: var(--navy);
   font-size: 1.25rem;
   font-weight: 850;
