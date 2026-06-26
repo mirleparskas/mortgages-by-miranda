@@ -7,6 +7,9 @@
   <meta name="description" content="Mortgages by Miranda helps Ontario buyers and homeowners prepare for purchases, renewals, refinances, and pre-approvals with clear mortgage guidance.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://mirandamortgages.ca/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;1,400&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Mortgages by Miranda | Ontario Mortgage Guidance">
@@ -33,6 +36,8 @@
         "image": "https://mirandamortgages.ca/assets/home-financing-visual.svg",
         "description": "Ontario mortgage guidance for home purchases, renewals, refinancing, pre-approvals, and self-employed borrower scenarios.",
         "areaServed": {"@type": "AdministrativeArea", "name": "Ontario"},
+        "email": "mortgagesbymiranda@gmail.com",
+        "telephone": "+12269735274",
         "serviceType": ["Mortgage guidance", "Mortgage pre-approval", "Mortgage renewal", "Mortgage refinance"]
       },
       {
@@ -41,23 +46,23 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "When should I start a mortgage pre-approval?",
+            "name": "When should I get pre-approved?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Start before serious house shopping so income, down payment, credit, debt, and rate hold options can be reviewed before an offer is made."
+              "text": "Before serious house shopping. A pre-approval helps confirm budget, rate hold options, down payment requirements, and documents lenders may ask for."
             }
           },
           {
             "@type": "Question",
-            "name": "Should I compare my renewal offer?",
+            "name": "Is the lowest mortgage rate always best?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. A renewal offer should be compared against current lender options, penalties, payment flexibility, and whether switching lenders is worth the paperwork."
+              "text": "No. Penalties, prepayment privileges, restrictions, portability, and approval conditions can matter as much as the rate."
             }
           },
           {
             "@type": "Question",
-            "name": "Can self-employed borrowers qualify for a mortgage?",
+            "name": "Can self-employed borrowers qualify?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Self-employed borrowers can qualify through traditional or alternative documentation depending on income history, credit, down payment, property type, and debt ratios."
@@ -75,38 +80,69 @@
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="#top" aria-label="Mortgages by Miranda home">
-        <span class="brand-mark">M</span>
-        <span>Mortgages by Miranda</span>
+        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true">
+          <circle cx="17" cy="15" r="9.5"></circle>
+          <line x1="3" y1="22" x2="31" y2="22"></line>
+          <line class="brand-reflection" x1="7" y1="26.5" x2="27" y2="26.5"></line>
+        </svg>
+        <span class="brand-text">
+          <span>Mortgages</span>
+          <span>by Miranda</span>
+        </span>
       </a>
       <div class="nav-links">
         <a href="#services">Services</a>
-        <a href="#process">Process</a>
+        <a href="#how">How it works</a>
         <a href="#faq">FAQ</a>
-        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="https://calendar.app.google/6Am8Qu5VcDmigqT36">Book a call</a>
       </div>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow">Ontario mortgage guidance</p>
-        <h1 id="hero-title">Know your options before you sign.</h1>
-        <p class="hero-text">Mortgages by Miranda helps buyers and homeowners make sense of rates, lender rules, documents, and timelines before the pressure of a purchase, renewal, or refinance.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="https://r.mtg-app.com/mortgagesbymiranda">Start an application</a>
-          <a class="button secondary" href="https://calendar.app.google/6Am8Qu5VcDmigqT36">Book a call</a>
-          <a class="button secondary" href="https://miranda-leparskas.mtg-app.com/calculators?brokerId=eea97555-ecdb-4470-b6e8-ce139c89b2c8">Use calculators</a>
-          <a class="button secondary" href="mailto:mortgagesbymiranda@gmail.com">Email Miranda</a>
-          <a class="button secondary" href="#services">View services</a>
+      <div class="ambient" aria-hidden="true">
+        <span class="orb orb-a"></span>
+        <span class="orb orb-b"></span>
+        <span class="orb orb-c"></span>
+        <span class="grid-lines"></span>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="hero-pill"><span></span>Ontario mortgage guidance</p>
+          <h1 id="hero-title">The calm way to approach your <em>next</em> mortgage.</h1>
+          <p class="hero-text">Mortgages by Miranda helps buyers and homeowners make sense of lender rules, documents, timelines, and tradeoffs before the pressure of a purchase, renewal, or refinance.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://calendar.app.google/6Am8Qu5VcDmigqT36">Book a call</a>
+            <a class="button secondary" href="https://r.mtg-app.com/mortgagesbymiranda">Start an application</a>
+            <a class="button secondary" href="https://miranda-leparskas.mtg-app.com/calculators?brokerId=eea97555-ecdb-4470-b6e8-ce139c89b2c8">Use calculators</a>
+          </div>
+          <div class="quiet-points" aria-label="Mortgage support focus areas">
+            <span>Purchases</span>
+            <span>Renewals</span>
+            <span>Refinancing</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Mortgage planning illustration">
+          <div class="visual-halo" aria-hidden="true"></div>
+          <div class="visual-card">
+            <img src="assets/home-financing-visual.svg" alt="Mortgage planning documents, laptop, and home model on a table">
+          </div>
+          <a class="floating-card floating-application" href="https://r.mtg-app.com/mortgagesbymiranda">
+            <span>Secure next step</span>
+            <strong>Start application</strong>
+          </a>
+          <a class="floating-card floating-call" href="https://calendar.app.google/6Am8Qu5VcDmigqT36">
+            <span>Have questions?</span>
+            <strong>Book a call</strong>
+          </a>
         </div>
       </div>
-      <figure class="hero-visual">
-        <img src="assets/home-financing-visual.svg" alt="Mortgage planning documents, laptop, and home model on a table">
-      </figure>
     </section>
 
-    <section class="proof-band" aria-label="Mortgage support highlights">
+    <section class="support-strip" aria-label="How Miranda can help">
       <div>
         <strong>Plan the numbers</strong>
         <span>Budget, down payment, closing costs, and approval conditions.</span>
@@ -119,115 +155,168 @@
         <strong>Move with clarity</strong>
         <span>Documents organized before the lender asks for them.</span>
       </div>
+      <div>
+        <strong>Use the right tool</strong>
+        <span>Book, calculate, or start an application from one place.</span>
+      </div>
     </section>
 
     <section class="section" id="services" aria-labelledby="services-title">
-      <div class="section-heading">
-        <p class="eyebrow">How Miranda Helps</p>
-        <h2 id="services-title">Practical support for the mortgage decision in front of you.</h2>
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">What we do</p>
+          <h2 id="services-title">Practical support for the mortgage decision in front of you.</h2>
+        </div>
+        <p>Clear guidance for common mortgage situations, without pressure.</p>
       </div>
       <div class="service-grid">
         <article class="service-card">
-          <h3>Buying a home</h3>
-          <p>Review affordability, down payment, closing costs, offer timing, and lender conditions before you start writing offers.</p>
+          <p class="card-tag">Step one</p>
+          <h3>First-time buyers</h3>
+          <p>Understand affordability, down payment, closing costs, offer timing, and documents before you start writing offers.</p>
         </article>
         <article class="service-card">
-          <h3>Getting pre-approved</h3>
-          <p>Build a lender-ready file based on documents, not guesswork, so your budget is easier to trust.</p>
+          <p class="card-tag">Budget check</p>
+          <h3>Pre-approvals</h3>
+          <p>Build a lender-ready file based on income, credit, debt, down payment, and property plans.</p>
         </article>
         <article class="service-card">
-          <h3>Renewing your mortgage</h3>
-          <p>Compare your lender's renewal offer with the broader market before accepting a new term.</p>
+          <p class="card-tag">Before you sign</p>
+          <h3>Renewals and refinancing</h3>
+          <p>Review your renewal offer, equity, penalties, new payments, and whether changing lenders makes sense.</p>
         </article>
         <article class="service-card">
-          <h3>Refinancing</h3>
-          <p>Look at equity, penalties, new payments, debt consolidation, and cash flow before changing the mortgage.</p>
-        </article>
-        <article class="service-card">
-          <h3>Self-employed files</h3>
-          <p>Prepare income documents and lender options when standard employment paperwork does not tell the full story.</p>
-        </article>
-        <article class="service-card">
-          <h3>Investment properties</h3>
-          <p>Review rental income treatment, debt ratios, down payment rules, and lender fit before expanding a portfolio.</p>
+          <p class="card-tag">More complex files</p>
+          <h3>Self-employed and investment properties</h3>
+          <p>Prepare documentation for variable income, business income, rental income, and lender-specific requirements.</p>
         </article>
       </div>
     </section>
 
-    <section class="section process-section" id="process" aria-labelledby="process-title">
-      <div class="section-heading">
-        <p class="eyebrow">Process</p>
-        <h2 id="process-title">A cleaner file makes the whole mortgage easier.</h2>
+    <section class="section band real-life" aria-labelledby="real-life-title">
+      <div class="image-panel">
+        <img src="assets/home-financing-visual.svg" alt="Home financing planning illustration">
       </div>
-      <ol class="process-list">
+      <div>
+        <p class="eyebrow">Built around real life</p>
+        <h2 id="real-life-title">Income, timing, and property plans are not always simple.</h2>
+        <p>Salaried, self-employed, commission, contract, buying, renewing, or refinancing - the first job is to understand the file clearly before choosing a path.</p>
+        <div class="perk-grid">
+          <div>
+            <strong>Document review</strong>
+            <span>Know what lenders usually ask for before the deadline is tight.</span>
+          </div>
+          <div>
+            <strong>Scenario planning</strong>
+            <span>Compare purchase, renewal, refinance, and cash-flow options.</span>
+          </div>
+          <div>
+            <strong>Flexible next steps</strong>
+            <span>Book a call, use calculators, or start the application when ready.</span>
+          </div>
+          <div>
+            <strong>Plain language</strong>
+            <span>Understand the tradeoffs without wading through jargon.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="how" aria-labelledby="how-title">
+      <div class="center-head">
+        <p class="eyebrow">How it works</p>
+        <h2 id="how-title">Three calm steps.</h2>
+      </div>
+      <ol class="steps">
         <li>
           <span>1</span>
-          <div>
-            <h3>Start with the goal</h3>
-            <p>Purchase, renewal, refinance, or pre-approval details are reviewed with timing, income, debt, down payment, and property plans.</p>
-          </div>
+          <h3>Talk it through</h3>
+          <p>Review your goal, timeline, income, debts, down payment, and property plans.</p>
         </li>
         <li>
           <span>2</span>
-          <div>
-            <h3>Compare lender paths</h3>
-            <p>Options are weighed by qualification fit, total cost, flexibility, approval conditions, and documentation requirements.</p>
-          </div>
+          <h3>Compare the path</h3>
+          <p>Look at qualification fit, costs, flexibility, documents, and conditions.</p>
         </li>
         <li>
           <span>3</span>
-          <div>
-            <h3>Prepare the submission</h3>
-            <p>Your application is organized so lender questions, approval conditions, and closing steps are easier to manage.</p>
-          </div>
+          <h3>Move forward</h3>
+          <p>Start the application, gather documents, and keep the next steps organized.</p>
         </li>
       </ol>
     </section>
 
     <section class="section faq-section" id="faq" aria-labelledby="faq-title">
-      <div class="section-heading">
-        <p class="eyebrow">FAQ</p>
-        <h2 id="faq-title">Straight answers before you book a call.</h2>
+      <div class="center-head">
+        <p class="eyebrow">Good to know</p>
+        <h2 id="faq-title">Questions, answered.</h2>
       </div>
       <div class="faq-list">
-        <article>
-          <h3>When should I get pre-approved?</h3>
+        <details open>
+          <summary>When should I get pre-approved?</summary>
           <p>Before serious house shopping. A pre-approval helps confirm budget, rate hold options, down payment requirements, and documents lenders may ask for.</p>
-        </article>
-        <article>
-          <h3>Is the lowest rate always best?</h3>
+        </details>
+        <details>
+          <summary>Is the lowest rate always best?</summary>
           <p>No. Penalties, prepayment privileges, restrictions, portability, and approval conditions can matter as much as the rate.</p>
-        </article>
-        <article>
-          <h3>What documents are usually needed?</h3>
-          <p>Government ID, income documents, down payment history, credit and debt details, and property information are common starting points.</p>
-        </article>
-        <article>
-          <h3>Can I refinance to consolidate debt?</h3>
-          <p>Sometimes. The right answer depends on available equity, penalties, new payment structure, qualification, and total cost over time.</p>
-        </article>
+        </details>
+        <details>
+          <summary>What documents are usually needed?</summary>
+          <p>Common starting points include government ID, income documents, down payment history, credit and debt details, and property information.</p>
+        </details>
+        <details>
+          <summary>Can self-employed borrowers qualify?</summary>
+          <p>Often, yes. The best route depends on income history, taxes, bank statements, credit, down payment, property type, and lender requirements.</p>
+        </details>
+        <details>
+          <summary>Can I refinance to consolidate debt?</summary>
+          <p>Sometimes. The right answer depends on equity, penalties, the new payment structure, qualification, and total cost over time.</p>
+        </details>
       </div>
     </section>
 
-    <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <div>
-        <p class="eyebrow">Contact</p>
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="contact-copy">
+        <p class="eyebrow">Let's talk</p>
         <h2 id="contact-title">Start with the decision you need to make.</h2>
-        <p>Send a short note with your goal, timing, city, and whether you are buying, renewing, refinancing, or getting pre-approved.</p>
+        <p>Book a call, start the secure mortgage application, or use the calculators to run quick numbers before you reach out.</p>
+        <div class="contact-lines">
+          <a href="tel:+12269735274">226-973-5274</a>
+          <a href="mailto:mortgagesbymiranda@gmail.com">mortgagesbymiranda@gmail.com</a>
+        </div>
       </div>
-      <div class="contact-panel">
-        <a class="button primary contact-cta" href="https://r.mtg-app.com/mortgagesbymiranda">Start a secure mortgage application</a>
-        <a class="button secondary contact-cta" href="https://calendar.app.google/6Am8Qu5VcDmigqT36">Book a call with Miranda</a>
-        <a class="button secondary contact-cta" href="https://miranda-leparskas.mtg-app.com/calculators?brokerId=eea97555-ecdb-4470-b6e8-ce139c89b2c8">Open mortgage calculators</a>
-        <a class="contact-link" href="mailto:mortgagesbymiranda@gmail.com">mortgagesbymiranda@gmail.com</a>
-        <a class="contact-link" href="tel:+12269735274">226-973-5274</a>
+      <div class="action-panel">
+        <a class="button primary" href="https://calendar.app.google/6Am8Qu5VcDmigqT36">Book a call with Miranda</a>
+        <a class="button secondary" href="https://r.mtg-app.com/mortgagesbymiranda">Start a secure mortgage application</a>
+        <a class="button secondary" href="https://miranda-leparskas.mtg-app.com/calculators?brokerId=eea97555-ecdb-4470-b6e8-ce139c89b2c8">Open mortgage calculators</a>
         <p>For privacy, avoid sending SINs, bank statements, tax documents, or other sensitive files by email until a secure document path is confirmed.</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Mortgages by Miranda provides mortgage guidance for Ontario borrowers. Brokerage, licensing, and required disclosure details should be confirmed before paid advertising or broad promotion.</p>
+    <div>
+      <a class="brand footer-brand" href="#top" aria-label="Mortgages by Miranda home">
+        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true">
+          <circle cx="17" cy="15" r="9.5"></circle>
+          <line x1="3" y1="22" x2="31" y2="22"></line>
+          <line class="brand-reflection" x1="7" y1="26.5" x2="27" y2="26.5"></line>
+        </svg>
+        <span class="brand-text">
+          <span>Mortgages</span>
+          <span>by Miranda</span>
+        </span>
+      </a>
+      <p>Helping Ontario borrowers choose a mortgage path with more clarity.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="legal">Mortgage options are subject to lender review, qualification rules, credit approval, and current market conditions.</p>
   </footer>
 </body>
 </html>
