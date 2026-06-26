@@ -11,14 +11,12 @@ Static website for an Ontario mortgage broker brand, built with plain HTML and C
 - `robots.txt` - crawler instructions.
 - `sitemap.xml` - XML sitemap.
 
-## Before Publishing
+## Before Promotion
 
-Replace these placeholders:
+Confirm these business details before paid ads, broad promotion, or compliance review:
 
-- `https://mortgagesbymiranda.ca/` if the final domain is different.
-- `hello@mortgagesbymiranda.ca`
-- `416-555-0142`
 - Brokerage name, license details, legal disclaimers, privacy policy link, and any required provincial compliance language.
+- Whether `hello@mirandamortgages.ca` is the final public contact inbox.
 
 Add real proof only when available:
 
